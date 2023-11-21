@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./Styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+        <h1> Calculator</h1>    
+        
+        </div>
+    </nav>
+    <section class="Calci">
+        <div class="container">
+            <div class="Formstyle">
+                <input type="text" id="number" name="number"  disabled>
+                <input type="button" value="1" class="btn" onclick="addtodisplay('1')">
+                <input type="button" value="2" class="btn" onclick="addtodisplay('2')">
+                <input type="button" value="3" class="btn" onclick="addtodisplay('3')">
+                <input type="button" value="+" class="btn" onclick="addtodisplay('+')">
+
+                <br>
+                <br>
+                <input type="button" value="4" class="btn" onclick="addtodisplay('4')">
+                <input type="button" value="5" class="btn" onclick="addtodisplay('5')">
+                <input type="button" value="6" class="btn" onclick="addtodisplay('6')">
+                <input type="button" value="-" class="btn" onclick="addtodisplay('-')">
+                <br>
+                <br>
+                <input type="button" value="7" class="btn" onclick="addtodisplay('7')">
+                <input type="button" value="8" class="btn" onclick="addtodisplay('8')">
+                <input type="button" value="9" class="btn" onclick="addtodisplay('9')">
+                <input type="button" value="*" class="btn" onclick="addtodisplay('*')">
+
+                <br>
+                <br>
+                <input type="button" value="0" class="btn" onclick="addtodisplay('0')">
+                <input type="button" value="/" class="btn" onclick="addtodisplay('/')">
+                <input type="button" value="." class="btn" onclick="addtodisplay('.')">
+                <input type="button" value="=" class="btn" onclick="calculate('=')">
+                <br>
+                <br>
+                <input type="button" value="clear all" id="clear" onclick="cleardisplay()"  >
+                
+
+            </div>
+       
+        </div>
+
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>

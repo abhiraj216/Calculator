@@ -1,0 +1,42 @@
+h1{
+    color: brown;
+    background-color: black;
+    padding: 23px;  
+    text-align: center;
+}
+.Formstyle{
+width: 300px;  
+height:518px;  
+margin: auto;  
+border: 3px solid skyblue;  
+border-radius: 5px;  
+padding: 20px;  
+}
+
+#number{
+    background-color: green;
+    border: 4px solid black;
+    height: 40px;
+    width: 280px;
+    padding: 5px;
+     text-align: center !important;
+}
+
+.btn{
+   margin-top: 5%;
+   margin-left: 7px;
+   margin-right: 10px;
+   border: 3px solid black;
+   background-color: green;
+   height: 60px; 
+   width: 55px;
+}
+#clear{
+    background-color: red;
+    border: 4px solid black;
+    height: 50px;
+    color: white;
+    width: 289px;
+    padding: 5px;
+     text-align: center !important;
+}
